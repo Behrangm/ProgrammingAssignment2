@@ -1,7 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
 #This function creates a "matrix" object that can cache its inverse using 
 # <<- operator to assign a value in the parent environment. 
 #This object has 4 functions: set, get, setinverse, get inverse
@@ -20,7 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 # computes the inverse of a "matrix" object created by makeCacheMatrix. 
 # If the inverse has already been calculated, then use the cache.
 cacheSolve <- function(x, ...) {
